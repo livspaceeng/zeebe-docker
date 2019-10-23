@@ -1,0 +1,6 @@
+# Types of files to be ignored
+*/temp*
+*/*/temp*
+temp?
+*.md
+LICENSE
