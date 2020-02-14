@@ -1,9 +1,10 @@
 # [zeebe-docker](https://github.com/livspaceeng/zeebe-docker)
 
-Dockerfiles which create Custom Zeebe images with Hazelcast exporter dependencies: [Docker Repo](https://hub.docker.com/repository/docker/livspaceeng/zeebe)
+Dockerfiles which create Custom Zeebe images with Kinesis & Hazelcast exporter dependencies, bundled with NewRelic: [Docker Repo](https://hub.docker.com/repository/docker/livspaceeng/zeebe)
 
 ### Released versions:
 - **latest** : _Pre-release_ - [Zeebe-0.22.x](https://github.com/zeebe-io/zeebe/releases/tag/0.22.1) with [Hazelcast-0.6.x](https://github.com/zeebe-io/zeebe-hazelcast-exporter/releases/tag/0.6.0) and [Kinesis-0.2](https://github.com/livspaceeng/zeebe-kinesis-exporter/releases/tag/0.2) : _JAVA_VERSION: 11_
+- **v0.22.1.5** : Zeebe-0.22.1 with Hazelcast-0.6.0 and Kinesis-0.2 and NewRelic-current : _JAVA_VERSION: 11_
 - **v0.22.1.4** : Zeebe-0.22.1 with Hazelcast-0.6.0 and Kinesis-0.2 : _JAVA_VERSION: 11_
 - **v0.22.1.3** : Zeebe-0.22.1 with Hazelcast-0.6.0 and Kinesis-0.1 : _JAVA_VERSION: 11_
 - **v0.22.1.2** : Zeebe-0.22.1 with Hazelcast-0.6.0 : _JAVA_VERSION: 11_
