@@ -2,7 +2,7 @@
 
 FROM camunda/zeebe:0.22.2
 ADD https://github.com/zeebe-io/zeebe-hazelcast-exporter/releases/download/0.6.0/zeebe-hazelcast-exporter-0.6.0-jar-with-dependencies.jar /usr/local/zeebe/lib/zeebe-hazelcast-exporter.jar
-ADD https://github.com/livspaceeng/zeebe-kinesis-exporter/releases/download/0.4/zeebe-kinesis-exporter-0.4-uber.jar /usr/local/zeebe/lib/zeebe-kinesis-exporter.jar
+ADD https://github.com/livspaceeng/zeebe-kinesis-exporter/releases/download/0.5/zeebe-kinesis-exporter-0.5-uber.jar /usr/local/zeebe/lib/zeebe-kinesis-exporter.jar
 RUN mkdir -p /usr/local/zeebe/newrelic
 ADD https://download.newrelic.com/newrelic/java-agent/newrelic-agent/current/newrelic.jar /usr/local/zeebe/newrelic/newrelic.jar
 ADD https://download.newrelic.com/newrelic/java-agent/newrelic-agent/current/newrelic.yml /usr/local/zeebe/newrelic/newrelic.yml
