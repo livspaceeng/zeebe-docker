@@ -6,4 +6,4 @@ ADD https://github.com/zeebe-io/zeebe-hazelcast-exporter/releases/download/0.8.0
 ADD https://github.com/livspaceeng/zeebe-kinesis-exporter/releases/download/0.5/zeebe-kinesis-exporter-0.5-uber.jar /usr/local/zeebe/exporters/zeebe-kinesis-exporter.jar
 ADD https://download.newrelic.com/newrelic/java-agent/newrelic-agent/current/newrelic.jar /usr/local/zeebe/newrelic/newrelic.jar
 ADD https://download.newrelic.com/newrelic/java-agent/newrelic-agent/current/newrelic.yml /usr/local/zeebe/newrelic/newrelic.yml
-RUN chmod 644 /usr/local/zeebe/lib/zeebe-hazelcast-exporter.jar /usr/local/zeebe/lib/zeebe-kinesis-exporter.jar /usr/local/zeebe/newrelic/newrelic.jar
+RUN chmod 644 /usr/local/zeebe/exporters/zeebe-hazelcast-exporter.jar /usr/local/zeebe/exporters/zeebe-kinesis-exporter.jar /usr/local/zeebe/newrelic/newrelic.jar
