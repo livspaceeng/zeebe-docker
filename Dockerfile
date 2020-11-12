@@ -1,6 +1,6 @@
 # Bundle Custom Exporters & NewRelic with Zeebe
 
-FROM camunda/zeebe:0.23.5
+FROM camunda/zeebe:0.23.6
 RUN mkdir -p /usr/local/zeebe/newrelic /usr/local/zeebe/exporters
 ADD https://github.com/zeebe-io/zeebe-hazelcast-exporter/releases/download/0.9.0/zeebe-hazelcast-exporter-0.9.0-jar-with-dependencies.jar /usr/local/zeebe/exporters/zeebe-hazelcast-exporter.jar
 ADD https://github.com/livspaceeng/zeebe-kinesis-exporter/releases/download/0.6/zeebe-kinesis-exporter-0.6-uber.jar /usr/local/zeebe/exporters/zeebe-kinesis-exporter.jar
